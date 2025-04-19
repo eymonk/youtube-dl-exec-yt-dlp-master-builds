@@ -1,15 +1,11 @@
 {
-  "name": "youtube-dl-exec",
+  "name": "@eymonk/youtube-dl-exec-yt-dlp-master-builds",
   "description": "A simple Node.js wrapper for youtube-dl",
   "homepage": "https://github.com/microlinkhq/youtube-dl-exec",
-  "version": "3.0.20",
+  "version": "1.0.0",
   "types": "src/index.d.ts",
   "main": "src/index.js",
-  "author": {
-    "email": "hello@microlink.io",
-    "name": "microlink.io",
-    "url": "https://microlink.io"
-  },
+  "author": "microlink.io <hello@microlink.io> (https://microlink.io)",
   "contributors": [
     {
       "name": "Kiko Beats",
@@ -134,7 +130,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microlinkhq/youtube-dl-exec.git"
+    "url": "https://github.com/eymonk/youtube-dl-exec-yt-dlp-master-builds.git"
   },
   "bugs": {
     "url": "https://github.com/microlinkhq/youtube-dl-exec/issues"
@@ -219,5 +215,9 @@
   },
   "tsd": {
     "directory": "test"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
